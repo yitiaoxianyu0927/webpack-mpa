@@ -1,4 +1,4 @@
-import 'lib-flexible';
+//import 'lib-flexible';
 // import flexible from 'lib-flexible/flexible.js';
 
 
