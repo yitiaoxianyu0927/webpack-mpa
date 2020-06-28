@@ -9,6 +9,11 @@ import 'element-ui/lib/theme-chalk/index.css';
 
 import App from './index.vue';
 
+import '@/assets/styles/common.less';
+
+
+import RequestUtils from "@/utils/request.js";
+Vue.prototype.$http = RequestUtils;
 
 Vue.use(Element, {
   size: 'medium', // set element-ui default size
